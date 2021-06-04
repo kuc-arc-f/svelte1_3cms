@@ -6,7 +6,7 @@
 
  date    : 2021/06/04
 
- update  :
+ update  : 2021/06/05
 
 ***
 ### Summary
@@ -27,6 +27,21 @@ yarn dev
 ***
 ### sample URL
 
+https://cms-kuc-svelte1-3cms.vercel.app/
+
+
+***
+### json file edit URL
+
+* jsonファイルを編集する機能：
+
+https://kuc-arc-f.github.io/react-idx-6edit2/
+
+
+***
+### json file edit code
+
+https://github.com/kuc-arc-f/react_idx_6edit2
 
 ***
 ### Blog:
