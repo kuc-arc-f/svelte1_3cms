@@ -1,5 +1,6 @@
 <script>
 import {link} from 'svelte-spa-router'
+import Nav from '../../components/Navi.svelte';
 import marked from 'marked'
 import LibCommon from '../../lib/LibCommon';
 import LibCms from '../../lib/LibCms'
@@ -21,12 +22,27 @@ get_items()
 </script>
 
 <!-- -->
-<div class="container">
-	<h1>{post.title}</h1>
-  ID : {params.id}<br />
-  Date : {post.created_at}
-  <hr />
-  <div id="post_item" >{@html post.content}
+<Nav />
+<div class="container bg-light">
+  <a href="/posts" class="btn btn-light btnx-outline-cyan mt-2" use:link>
+    Back</a>
+  <hr class="mt-2 mb-2" />
+  <div class="show_head_wrap">
+    <i class="bi bi-house-fill mx-2"></i> >
+      &nbsp;{post.title}
   </div>
+  <div class="card shadow-sm my-2">
+    <div class="card-body">
+      <h1>{post.title}</h1>
+      Date: {post.created_at}<br />
+      ID : {params.id}<br />
+    </div>
+  </div>    
+  <div class="card shadow-sm mt-2 mb-4">
+    <div class="card-body">
+      <div id="post_item" >{@html post.content}
+      </div>
+    </div>
+  </div>   
 
 </div>

@@ -5,10 +5,15 @@ import index from './pages/index.svelte'
 import test from  './pages/test.svelte'
 import tasks from './pages/posts/index.svelte'
 import tasks_show from './pages/posts/show.svelte'
+//
+import about from './pages/about.svelte'
+import license from './pages/license.svelte'
 
 export const routes = {
   '/': index,
   '/test': test,
+  '/about': about,
+  '/license': license,
   '/posts/': tasks,
   '/posts/show/:id': tasks_show,
 }	
@@ -16,7 +21,6 @@ export const routes = {
 
 <!-- main -->
 <main>
-  <Navi />
   <Router {routes} />
 </main>
 
