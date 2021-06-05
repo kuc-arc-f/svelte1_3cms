@@ -45,7 +45,9 @@ https://github.com/kuc-arc-f/react_idx_6edit2
 
 ***
 ### Blog:
+* svelteで、無料ブログ公開の例
 
+https://zenn.dev/knaka0209/articles/6cc11fad674a53
 
 ***
 
