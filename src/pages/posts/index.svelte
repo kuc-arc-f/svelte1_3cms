@@ -44,6 +44,6 @@ get_items()
         </div>
       </div>
     </div>
-    <h3>Posts - index</h3>
   </div>
 </div>
+
